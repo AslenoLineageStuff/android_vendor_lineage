@@ -110,4 +110,8 @@
     even after user setup is complete. The defined component should be used for supervision purposes
     only. The component must be part of a system app. -->
     <string name="config_defaultSupervisionProfileOwnerComponent" translatable="false">com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver</string>
+
+    <!-- Amount of time in ms the user needs to press the relevant keys to trigger the
+         screenshot chord -->
+    <integer name="config_screenshotChordKeyTimeout">0</integer>
 </resources>
