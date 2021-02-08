@@ -166,7 +166,10 @@ PRODUCT_PACKAGES += \
 # Gesture Overlays
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationRadiusLow \
+    GesturalNavigationRadiusVeryLow \
+    GesturalNavigationRadiusHidden
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
